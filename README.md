@@ -5,6 +5,8 @@ POSIX, CJK-safe.**
 
 [繁體中文](README.zh-TW.md)
 
+![pickbar demo](demo.gif)
+
 The highlight bar: the way BBS-era software felt. A reverse-video bar you
 drive with the arrow keys, digits to jump, Enter to commit. `pickbar` brings
 that to Python scripts with zero dependencies, a single module, and three

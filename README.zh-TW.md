@@ -4,6 +4,8 @@
 
 [English](README.md)
 
+![pickbar demo](demo.gif)
+
 光棒，BBS 年代軟體的手感：反白亮條用方向鍵開，數字直接跳，Enter 定案。
 `pickbar` 把這套帶進 Python 腳本，零依賴、單一模組、三個函式：
 
