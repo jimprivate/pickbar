@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pickbar"
+version = "0.1.0"
+description = "Zero-dependency highlight-bar menus for the terminal: pick, multi-select, directory browser. Windows and POSIX, CJK-safe."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "jimprivate" }]
+keywords = ["tui", "menu", "picker", "terminal", "cli", "highlight-bar", "cjk"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Terminals",
+]
+
+[project.urls]
+Homepage = "https://github.com/jimprivate/pickbar"
+Issues = "https://github.com/jimprivate/pickbar/issues"
+
+[tool.setuptools]
+py-modules = ["pickbar"]
